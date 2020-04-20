@@ -24,6 +24,6 @@ Then the user gets redirected to the registration page
 
 **Updates Required**
 1. Automatic ditection of OS and initiate drivers accordingly.
-2. Logging mechanism.
+2. Logging mechanism and optimize code.
 3. Exception Handling for few cases.
 
