@@ -93,7 +93,8 @@ public class amazonSteps extends BaseClass {
 @When("^click on checkout, without an account$")
 	    public void click_on_checkout_without_an_account() throws Throwable
 	    {
-			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='proceedToRetailCheckout']")));
+			wait = new WebDriverWait(driver, 10, 50);
+//			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='proceedToRetailCheckout']")));
 			driver.findElement(By.xpath("//input[@name='proceedToRetailCheckout']")).click();
 	    }
 	    
