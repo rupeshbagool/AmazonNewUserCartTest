@@ -6,11 +6,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="test" value="true"/>
@@ -43,14 +38,15 @@
 	<classpathentry kind="lib" path="F:/SeleniumBatch23rdNov/selenium-java-3.141.59/libs/guava-25.0-jre.jar"/>
 	<classpathentry kind="lib" path="F:/SeleniumBatch23rdNov/selenium-java-3.141.59/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="F:/SeleniumBatch23rdNov/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Rupesh/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar" sourcepath="C:/Users/Rupesh/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="commons-io"/>
-			<attribute name="maven.artifactId" value="commons-io"/>
-			<attribute name="maven.version" value="2.6"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="F:/SeleniumBatch23rdNov/selenium-java-3.141.59/rest-assured-4.3.0-dist/rest-assured-4.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/SeleniumBatch23rdNov/selenium-java-3.141.59/rest-assured-4.3.0-dist/docs/json-path-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/SeleniumBatch23rdNov/selenium-java-3.141.59/rest-assured-4.3.0-dist/docs/json-path-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/SeleniumBatch23rdNov/selenium-java-3.141.59/rest-assured-4.3.0-dist/docs/rest-assured-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/SeleniumBatch23rdNov/selenium-java-3.141.59/rest-assured-4.3.0-dist/docs/rest-assured-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/SeleniumBatch23rdNov/selenium-java-3.141.59/rest-assured-4.3.0-dist/docs/rest-assured-common-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/SeleniumBatch23rdNov/selenium-java-3.141.59/rest-assured-4.3.0-dist/docs/rest-assured-common-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/SeleniumBatch23rdNov/selenium-java-3.141.59/rest-assured-4.3.0-dist/docs/xml-path-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/SeleniumBatch23rdNov/selenium-java-3.141.59/rest-assured-4.3.0-dist/docs/xml-path-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/seleniumcode/PracticeFramework/src/JARs/selenium-server-standalone-3.12.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
