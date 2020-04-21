@@ -8,7 +8,7 @@
 1. All the existing sessions are closed.
   
 **Miscellaneous Feature**
-1. **Screenshot** is taken and saved for validation of conditions.
+1. **Screenshot** is taken and saved for validation of conditions. (\BDDcucumberTest_1\Screenshot)
 2. **Test Report** for the test execution is available in the test-output directory.
 
 **Test Feature**
