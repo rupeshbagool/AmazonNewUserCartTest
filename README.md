@@ -1,5 +1,9 @@
 # AmazonNewUserCartTest
 
+**Note : This code is running on Windows Machine.
+			Code developed on Windows laptop as I have windows one. 
+			Need a platform for MacOS and Linux, to see the meta data infomation and use that to develop a code to extend support to MacOS and Linux.
+
 **Before Test - Set up**
 1. Browser can be passed as parameter for running on desired browser (Chrome).
 
