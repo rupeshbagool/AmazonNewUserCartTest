@@ -48,42 +48,42 @@ formatter.match({
   "location": "amazonSteps.open_the_Chrome_and_launch_the_amazonWebsite()"
 });
 formatter.result({
-  "duration": 9854975900,
+  "duration": 10542669300,
   "status": "passed"
 });
 formatter.match({
   "location": "amazonSteps.search_cheapest_Snickers_and_Skittles()"
 });
 formatter.result({
-  "duration": 2071026800,
+  "duration": 5626600801,
   "status": "passed"
 });
 formatter.match({
   "location": "amazonSteps.Add_Cheapest_one_to_your_basket()"
 });
 formatter.result({
-  "duration": 8192385200,
+  "duration": 10103541400,
   "status": "passed"
 });
 formatter.match({
   "location": "amazonSteps.check_if_the_basket_calculaes_the_result_correctly()"
 });
 formatter.result({
-  "duration": 3008509200,
+  "duration": 11225550200,
   "status": "passed"
 });
 formatter.match({
   "location": "amazonSteps.click_on_checkout_without_an_account()"
 });
 formatter.result({
-  "duration": 1553830600,
+  "duration": 3104651200,
   "status": "passed"
 });
 formatter.match({
   "location": "amazonSteps.the_user_gets_redirected_to_the_registration_page()"
 });
 formatter.result({
-  "duration": 406831500,
+  "duration": 404074901,
   "status": "passed"
 });
 });
