@@ -10,14 +10,14 @@
 2. **Test Report** for the test execution is available in the test-output directory.
 
 **Test Feature**
-Feature: New use Redirected to registration page after checkout without an account 
-Scenario: New user Redirected to registration page after selecting item to cart.
-Given Open Google Chrome and navigate to https://www.amazon.de/			
-When search the cheapest Snickers and Skittles on the page
-	And Add the cheapest ones to your Basket
-	And check if the basket calculates the result correctly
-	And click on checkout, without an account
-Then the user gets redirected to the registration page
+**Feature**: New use Redirected to registration page after checkout without an account 
+**Scenario**: New user Redirected to registration page after selecting item to cart.
+**Given** Open Google Chrome and navigate to https://www.amazon.de/			
+**When** search the cheapest Snickers and Skittles on the page
+	**And** Add the cheapest ones to your Basket
+	**And** check if the basket calculates the result correctly
+	**And** click on checkout, without an account
+**Then** the user gets redirected to the registration page
 
 Requesting reviewer to review the program and suggest possible optimizations and changes.
 
