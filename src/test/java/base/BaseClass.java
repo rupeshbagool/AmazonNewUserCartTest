@@ -10,7 +10,9 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterTest;
@@ -25,8 +27,12 @@ public class BaseClass {
 	public WebDriver driver;
 	public WebDriverWait wait;
 
-
-
+	public void DriverInitialize()
+	{
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/test/resources/chromedriver.exe");
+		driver =new ChromeDriver();
+	}
+	
 	public WebElement waitForVisibilityOf(WebElement element) {
 		int retryCount = 2;
 		try{
@@ -47,19 +53,15 @@ public class BaseClass {
     public void screenshotCartCalculation() throws IOException
     {
     	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-    	// Now you can do whatever you need to do with it, for example copy somewhere
     	FileUtils.copyFile(scrFile, new File(("user.dir")+"\\BDDcucumberTest\\Screenshot\\CalcScreenshot.png"));
-//    	FileUtils.copyFile(scrFile, new File("C:\\Users\\Rupesh\\eclipse-workspace\\BDDcucumberTest\\Screenshot\\CalcScreenshot.png"));
 
     }
     
     public void FinalValidation() throws IOException
     {
     	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-    	// Now you can do whatever you need to do with it, for example copy somewhere
     	FileUtils.getFile(scrFile, new File(("user.dir"))+"\\BDDcucumberTest\\Screenshot\\FinalValidation.png");
-//    	File DestFile=new File("C:\\Users\\Rupesh\\eclipse-workspace\\BDDcucumberTest\\Screenshot\\FinalValidation.png");
-//    	FileUtils.copyFile(scrFile, DestFile);
+
     }
     
     
