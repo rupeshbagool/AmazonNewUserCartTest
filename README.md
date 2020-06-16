@@ -1,15 +1,9 @@
 # AmazonNewUserCartTest
 
 **Note : This code is running on Windows Machine.
-			Code developed on Windows laptop as I have windows one. 
-			Need a platform for MacOS and Linux, to see the meta data infomation and use that to develop a code to extend support to MacOS and Linux.
 
 **Before Test - Set up**
 1. Browser can be passed as parameter for running on desired browser (Chrome).
-
-
-**After Test - Tear down**
-1. All the existing sessions are closed.
   
 **Miscellaneous Feature**
 1. **Screenshot** is taken and saved for validation of conditions. (\BDDcucumberTest_1\Screenshot)
@@ -17,7 +11,7 @@
 
 **Test Feature**
 Feature: New use Redirected to registration page after checkout without an account 
-Scenario: Use Redirected to registration page 
+Scenario: New user Redirected to registration page after selecting item to cart.
 Given Open Google Chrome and navigate to https://www.amazon.de/			
 When search the cheapest Snickers and Skittles on the page
 	And Add the cheapest ones to your Basket
@@ -25,9 +19,8 @@ When search the cheapest Snickers and Skittles on the page
 	And click on checkout, without an account
 Then the user gets redirected to the registration page
 
+Requesting reviewer to review the program and suggest possible optimizations and changes.
 
-**Updates Required**
-1. Automatic ditection of OS and initiate drivers accordingly.
-2. Logging mechanism and optimize code.
-3. Exception Handling for few cases.
 
+Thanks,
+Rupesh
