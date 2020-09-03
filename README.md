@@ -24,3 +24,11 @@ Requesting reviewer to review the program and suggest possible optimizations and
 
 Thanks,
 Rupesh
+
+
+-------------*****************************************--------------
+04/09/2020
+Task:
+1) Access Google Chrome.
+2) Navigate to www.amazon.in website.
+3) Search for "Sport Shoes"
